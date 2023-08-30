@@ -1,10 +1,2 @@
 #!/bin/bash
-
-# Define the path to the file
-file_path="/tmp/iamafile"
-
-# Use the 'file' command to determine the file type
-file_type_info=$(file "$file_path")
-
-# Print the file type information
-echo "$file_type_info"
+file /tmp/iamafile
