@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# List files in long format in the current directory
+echo "Current Directory:"
+ls -la
+
+# Change to the parent directory of the working directory (..)
+cd ..
+
+# List files in long format in the parent directory
+echo "Parent Directory:"
+ls -la
+
+# Change to the /boot directory
+cd /boot
+
+# List files in long format in the /boot directory
+echo "/boot Directory:"
+ls -la
