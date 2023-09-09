@@ -1,10 +1,2 @@
 #!/bin/bash
-
-# Create the file with the specified name and content
-echo "Best School" > '*\\'"Best School"\'\\*$\\?*****:)'
-
-# Verify the file has been created
-ls -l '*\\'"Best School"\'\\*$\\?*****:)'
-
-# Output the contents of the file
-cat '*\\'"Best School"\'\\*$\\?*****:)'
+echo "Best School" > "'*\\'"Best School"\\''\\*\\$\\?*****:)'"
